@@ -20,5 +20,5 @@ LOG_CHANNEL: int | None = int(os.environ["LOG_CHANNEL"]) if os.environ.get("-100
 DEV_URL: str = os.environ.get("DEV_URL", "https://t.me/Maskmen9")
 
 # ── MongoDB ───────────────────────────────────────────────────────────────────
-MONGO_URI: str = _require("mongodb+srv://Vasu:@Daemon990@cluster0.rv1vrmg.mongodb.net/?appName=Cluster0")
+MONGO_URI: str = _require("mongodb+srv://daemon:<db_password>@cluster0.1pirujy.mongodb.net/?appName=Cluster0")
 MONGO_DB: str = os.environ.get("MONGO_DB", "apple_music_bot")
