@@ -14,10 +14,10 @@ API_HASH: str = _require("64a8cdb2c92d7ac433765af3e65dabb1")
 BOT_TOKEN: str = _require("8667941299:AAFOilkpQZ0_9aCjpBHCIFVl0C5dytOVVy0")
 
 # Optional: private channel ID for logging (e.g. -100123456789)
-LOG_CHANNEL: int | None = int(os.environ["LOG_CHANNEL"]) if os.environ.get("LOG_CHANNEL") else None
+LOG_CHANNEL: int | None = int(os.environ["LOG_CHANNEL"]) if os.environ.get("-1003931443335") else None
 
 # Developer profile URL shown in /start button
-DEV_URL: str = os.environ.get("DEV_URL", "https://t.me/cantarella_wuwa")
+DEV_URL: str = os.environ.get("DEV_URL", "https://t.me/Maskmen9")
 
 # ── MongoDB ───────────────────────────────────────────────────────────────────
 MONGO_URI: str = _require("mongodb+srv://Vasu:@Daemon990@cluster0.rv1vrmg.mongodb.net/?appName=Cluster0")
