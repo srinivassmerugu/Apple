@@ -9,9 +9,9 @@ def _require(key: str) -> str:
 
 
 # ── Telegram ──────────────────────────────────────────────────────────────────
-API_ID: int = int(_require("API_ID"))
-API_HASH: str = _require("API_HASH")
-BOT_TOKEN: str = _require("BOT_TOKEN")
+API_ID: int = int(_require("31235022"))
+API_HASH: str = _require("64a8cdb2c92d7ac433765af3e65dabb1")
+BOT_TOKEN: str = _require("8667941299:AAFOilkpQZ0_9aCjpBHCIFVl0C5dytOVVy0")
 
 # Optional: private channel ID for logging (e.g. -100123456789)
 LOG_CHANNEL: int | None = int(os.environ["LOG_CHANNEL"]) if os.environ.get("LOG_CHANNEL") else None
